@@ -86,6 +86,12 @@ DATABASES = {
     }
 }
 
+# djongo settings
+DATABASES['default']['OPTIONS'] = {
+    'username': 'octofit_user',
+    'password': 'octofit_password',
+}
+
 
 # Password validation
 # https://docs.djangoproject.com/en/5.2/ref/settings/#auth-password-validators
